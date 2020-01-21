@@ -1,4 +1,3 @@
-
-*.tlog
 *.user
 *.suo
+Debug/BuildLog.htm

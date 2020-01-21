@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Calc", "Calc\Calc.vcxproj", "{ED717F2F-5ADB-46AB-BEF6-547863CDDE29}"
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Calc", "Calc.vcproj", "{E0A74D3D-BDBA-4B94-A7C0-D83D2A3B8DF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ED717F2F-5ADB-46AB-BEF6-547863CDDE29}.Debug|Win32.ActiveCfg = Debug|Win32
-		{ED717F2F-5ADB-46AB-BEF6-547863CDDE29}.Debug|Win32.Build.0 = Debug|Win32
-		{ED717F2F-5ADB-46AB-BEF6-547863CDDE29}.Release|Win32.ActiveCfg = Release|Win32
-		{ED717F2F-5ADB-46AB-BEF6-547863CDDE29}.Release|Win32.Build.0 = Release|Win32
+		{E0A74D3D-BDBA-4B94-A7C0-D83D2A3B8DF2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E0A74D3D-BDBA-4B94-A7C0-D83D2A3B8DF2}.Debug|Win32.Build.0 = Debug|Win32
+		{E0A74D3D-BDBA-4B94-A7C0-D83D2A3B8DF2}.Release|Win32.ActiveCfg = Release|Win32
+		{E0A74D3D-BDBA-4B94-A7C0-D83D2A3B8DF2}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
