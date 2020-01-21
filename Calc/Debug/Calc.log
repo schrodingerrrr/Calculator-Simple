@@ -1,0 +1,31 @@
+﻿Построение начато 19.12.2019 0:47:54.
+     1>Проект "C:\Users\djkol\Desktop\В Сахаре нет волков\2 лаба\Calc\Calc\Calc.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\Calc.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\\" /AIC:\Windows\Microsoft.NET\Framework\v3.5\ /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\\" /AIC:\Windows\Microsoft.NET\Framework\v3.0\ /AIC:\Windows\Microsoft.NET\Framework\v2.0.50727\ /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Calc.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll" /FUC:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /FUC:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /FUC:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /FUC:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /FUC:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /analyze- /errorReport:prompt Calc.cpp /d1clr:nostdlib 
+         Calc.cpp
+     1>Calc.cpp(3): warning C4005: __CLR_VER: изменение макроопределения
+                 аргументы командной строки:  см. предыдущее определение "__CLR_VER"
+     1>Calc.cpp(3): warning C4651: параметр "/D__CLR_VER=40703468" указан для предкомпилированного заголовка, но не для текущей компиляции
+       CoreResGen:
+         Отсутствуют ресурсы, устаревшие по отношению к файлам своих источников. Пропуск формирования ресурсов.
+       ResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\djkol\Desktop\В Сахаре нет волков\2 лаба\Calc\Debug\Calc.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\Calc.FFirst.resources /MANIFEST /ManifestFile:"Debug\Calc.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\djkol\Desktop\В Сахаре нет волков\2 лаба\Calc\Debug\Calc.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\Calc.obj
+         Debug\stdafx.obj
+         Calc.vcxproj -> C:\Users\djkol\Desktop\В Сахаре нет волков\2 лаба\Calc\Debug\Calc.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\djkol\Desktop\В Сахаре нет волков\2 лаба\Calc\Debug\Calc.exe;#1" /manifest Debug\Calc.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\Calc.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Calc.lastbuildstate".
+     1>Построение проекта "C:\Users\djkol\Desktop\В Сахаре нет волков\2 лаба\Calc\Calc\Calc.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:02.63
