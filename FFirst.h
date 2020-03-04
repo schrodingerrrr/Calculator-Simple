@@ -91,37 +91,37 @@ namespace Calc {
 			// 
 			// btnClose
 			// 
+			this->btnClose->BackColor = System::Drawing::Color::Silver;
 			this->btnClose->FlatAppearance->BorderSize = 0;
 			this->btnClose->FlatAppearance->MouseDownBackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(80)), 
 				static_cast<System::Int32>(static_cast<System::Byte>(80)), static_cast<System::Int32>(static_cast<System::Byte>(80)));
 			this->btnClose->FlatAppearance->MouseOverBackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(80)), 
 				static_cast<System::Int32>(static_cast<System::Byte>(80)), static_cast<System::Int32>(static_cast<System::Byte>(80)));
-			this->btnClose->FlatStyle = System::Windows::Forms::FlatStyle::System;
+			this->btnClose->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
 			this->btnClose->Font = (gcnew System::Drawing::Font(L"Segoe UI", 7.8F, System::Drawing::FontStyle::Bold));
-			this->btnClose->ForeColor = System::Drawing::Color::White;
-			this->btnClose->Location = System::Drawing::Point(240, 185);
+			this->btnClose->ForeColor = System::Drawing::Color::Black;
+			this->btnClose->Location = System::Drawing::Point(14, 330);
 			this->btnClose->Name = L"btnClose";
-			this->btnClose->Size = System::Drawing::Size(100, 30);
+			this->btnClose->Size = System::Drawing::Size(100, 100);
 			this->btnClose->TabIndex = 0;
 			this->btnClose->Text = L"Закрыть";
-			this->btnClose->UseVisualStyleBackColor = true;
+			this->btnClose->UseVisualStyleBackColor = false;
 			this->btnClose->Click += gcnew System::EventHandler(this, &Form1::btnClose_Click);
 			// 
 			// btnReset
 			// 
-			this->btnReset->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(40)), static_cast<System::Int32>(static_cast<System::Byte>(40)), 
-				static_cast<System::Int32>(static_cast<System::Byte>(40)));
+			this->btnReset->BackColor = System::Drawing::Color::Silver;
 			this->btnReset->FlatAppearance->BorderSize = 0;
 			this->btnReset->FlatAppearance->MouseDownBackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(80)), 
 				static_cast<System::Int32>(static_cast<System::Byte>(80)), static_cast<System::Int32>(static_cast<System::Byte>(80)));
 			this->btnReset->FlatAppearance->MouseOverBackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(80)), 
 				static_cast<System::Int32>(static_cast<System::Byte>(80)), static_cast<System::Int32>(static_cast<System::Byte>(80)));
-			this->btnReset->FlatStyle = System::Windows::Forms::FlatStyle::System;
+			this->btnReset->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
 			this->btnReset->Font = (gcnew System::Drawing::Font(L"Segoe UI", 7.8F, System::Drawing::FontStyle::Bold));
-			this->btnReset->ForeColor = System::Drawing::Color::White;
-			this->btnReset->Location = System::Drawing::Point(240, 150);
+			this->btnReset->ForeColor = System::Drawing::Color::Black;
+			this->btnReset->Location = System::Drawing::Point(120, 330);
 			this->btnReset->Name = L"btnReset";
-			this->btnReset->Size = System::Drawing::Size(100, 30);
+			this->btnReset->Size = System::Drawing::Size(100, 100);
 			this->btnReset->TabIndex = 1;
 			this->btnReset->Text = L"Сброс";
 			this->btnReset->UseVisualStyleBackColor = false;
@@ -129,19 +129,18 @@ namespace Calc {
 			// 
 			// btnAdd
 			// 
-			this->btnAdd->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(40)), static_cast<System::Int32>(static_cast<System::Byte>(40)), 
-				static_cast<System::Int32>(static_cast<System::Byte>(40)));
+			this->btnAdd->BackColor = System::Drawing::Color::Silver;
 			this->btnAdd->FlatAppearance->BorderSize = 0;
 			this->btnAdd->FlatAppearance->MouseDownBackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(80)), 
 				static_cast<System::Int32>(static_cast<System::Byte>(80)), static_cast<System::Int32>(static_cast<System::Byte>(80)));
 			this->btnAdd->FlatAppearance->MouseOverBackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(80)), 
 				static_cast<System::Int32>(static_cast<System::Byte>(80)), static_cast<System::Int32>(static_cast<System::Byte>(80)));
-			this->btnAdd->FlatStyle = System::Windows::Forms::FlatStyle::System;
+			this->btnAdd->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
 			this->btnAdd->Font = (gcnew System::Drawing::Font(L"Segoe UI", 9, System::Drawing::FontStyle::Bold));
-			this->btnAdd->ForeColor = System::Drawing::Color::White;
-			this->btnAdd->Location = System::Drawing::Point(240, 10);
+			this->btnAdd->ForeColor = System::Drawing::Color::Black;
+			this->btnAdd->Location = System::Drawing::Point(226, 12);
 			this->btnAdd->Name = L"btnAdd";
-			this->btnAdd->Size = System::Drawing::Size(50, 30);
+			this->btnAdd->Size = System::Drawing::Size(100, 100);
 			this->btnAdd->TabIndex = 2;
 			this->btnAdd->Text = L"+";
 			this->btnAdd->UseVisualStyleBackColor = false;
@@ -160,10 +159,11 @@ namespace Calc {
 			// 
 			// txt1
 			// 
+			this->txt1->BackColor = System::Drawing::SystemColors::Control;
 			this->txt1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8));
-			this->txt1->Location = System::Drawing::Point(115, 60);
+			this->txt1->Location = System::Drawing::Point(120, 12);
 			this->txt1->Name = L"txt1";
-			this->txt1->Size = System::Drawing::Size(90, 23);
+			this->txt1->Size = System::Drawing::Size(100, 23);
 			this->txt1->TabIndex = 4;
 			this->txt1->TextAlign = System::Windows::Forms::HorizontalAlignment::Right;
 			this->txt1->TextChanged += gcnew System::EventHandler(this, &Form1::txt1_TextChanged);
@@ -171,74 +171,80 @@ namespace Calc {
 			// lbl1
 			// 
 			this->lbl1->AutoSize = true;
-			this->lbl1->BackColor = System::Drawing::SystemColors::Menu;
+			this->lbl1->BackColor = System::Drawing::SystemColors::WindowFrame;
 			this->lbl1->Font = (gcnew System::Drawing::Font(L"Segoe UI", 7.8F, System::Drawing::FontStyle::Bold));
 			this->lbl1->ForeColor = System::Drawing::Color::Black;
-			this->lbl1->Location = System::Drawing::Point(0, 60);
+			this->lbl1->Location = System::Drawing::Point(12, 16);
 			this->lbl1->Name = L"lbl1";
 			this->lbl1->Size = System::Drawing::Size(111, 19);
 			this->lbl1->TabIndex = 5;
 			this->lbl1->Text = L"Первое число:";
 			this->lbl1->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->lbl1->Click += gcnew System::EventHandler(this, &Form1::lbl1_Click);
 			// 
 			// lbl2
 			// 
 			this->lbl2->AutoSize = true;
+			this->lbl2->BackColor = System::Drawing::SystemColors::WindowFrame;
 			this->lbl2->Font = (gcnew System::Drawing::Font(L"Segoe UI", 7.8F, System::Drawing::FontStyle::Bold));
 			this->lbl2->ForeColor = System::Drawing::Color::Black;
-			this->lbl2->Location = System::Drawing::Point(0, 90);
+			this->lbl2->Location = System::Drawing::Point(12, 122);
 			this->lbl2->Name = L"lbl2";
 			this->lbl2->Size = System::Drawing::Size(108, 19);
 			this->lbl2->TabIndex = 6;
 			this->lbl2->Text = L"Второе число:";
 			this->lbl2->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->lbl2->Click += gcnew System::EventHandler(this, &Form1::lbl2_Click);
 			// 
 			// lblResult
 			// 
 			this->lblResult->AutoSize = true;
+			this->lblResult->BackColor = System::Drawing::SystemColors::WindowFrame;
 			this->lblResult->Font = (gcnew System::Drawing::Font(L"Segoe UI", 7.8F, System::Drawing::FontStyle::Bold));
 			this->lblResult->ForeColor = System::Drawing::Color::Black;
-			this->lblResult->Location = System::Drawing::Point(0, 120);
+			this->lblResult->Location = System::Drawing::Point(12, 228);
 			this->lblResult->Name = L"lblResult";
 			this->lblResult->Size = System::Drawing::Size(80, 19);
 			this->lblResult->TabIndex = 7;
 			this->lblResult->Text = L"Результат:";
 			this->lblResult->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->lblResult->Click += gcnew System::EventHandler(this, &Form1::lblResult_Click);
 			// 
 			// txt2
 			// 
+			this->txt2->BackColor = System::Drawing::SystemColors::Control;
 			this->txt2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8));
-			this->txt2->Location = System::Drawing::Point(115, 90);
+			this->txt2->Location = System::Drawing::Point(120, 118);
 			this->txt2->Name = L"txt2";
-			this->txt2->Size = System::Drawing::Size(90, 23);
+			this->txt2->Size = System::Drawing::Size(100, 23);
 			this->txt2->TabIndex = 8;
 			this->txt2->TextAlign = System::Windows::Forms::HorizontalAlignment::Right;
 			this->txt2->TextChanged += gcnew System::EventHandler(this, &Form1::txt2_TextChanged);
 			// 
 			// txtResult
 			// 
+			this->txtResult->BackColor = System::Drawing::SystemColors::Control;
 			this->txtResult->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8));
-			this->txtResult->Location = System::Drawing::Point(115, 120);
+			this->txtResult->Location = System::Drawing::Point(120, 224);
 			this->txtResult->Name = L"txtResult";
-			this->txtResult->Size = System::Drawing::Size(90, 23);
+			this->txtResult->Size = System::Drawing::Size(100, 23);
 			this->txtResult->TabIndex = 9;
 			this->txtResult->TextAlign = System::Windows::Forms::HorizontalAlignment::Right;
 			// 
 			// btnNoAdd
 			// 
-			this->btnNoAdd->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(40)), static_cast<System::Int32>(static_cast<System::Byte>(40)), 
-				static_cast<System::Int32>(static_cast<System::Byte>(40)));
+			this->btnNoAdd->BackColor = System::Drawing::Color::Silver;
 			this->btnNoAdd->FlatAppearance->BorderSize = 0;
 			this->btnNoAdd->FlatAppearance->MouseDownBackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(80)), 
 				static_cast<System::Int32>(static_cast<System::Byte>(80)), static_cast<System::Int32>(static_cast<System::Byte>(80)));
 			this->btnNoAdd->FlatAppearance->MouseOverBackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(80)), 
 				static_cast<System::Int32>(static_cast<System::Byte>(80)), static_cast<System::Int32>(static_cast<System::Byte>(80)));
-			this->btnNoAdd->FlatStyle = System::Windows::Forms::FlatStyle::System;
+			this->btnNoAdd->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
 			this->btnNoAdd->Font = (gcnew System::Drawing::Font(L"Segoe UI", 9, System::Drawing::FontStyle::Bold));
-			this->btnNoAdd->ForeColor = System::Drawing::Color::White;
-			this->btnNoAdd->Location = System::Drawing::Point(296, 10);
+			this->btnNoAdd->ForeColor = System::Drawing::Color::Black;
+			this->btnNoAdd->Location = System::Drawing::Point(226, 118);
 			this->btnNoAdd->Name = L"btnNoAdd";
-			this->btnNoAdd->Size = System::Drawing::Size(50, 30);
+			this->btnNoAdd->Size = System::Drawing::Size(100, 100);
 			this->btnNoAdd->TabIndex = 10;
 			this->btnNoAdd->Text = L"-";
 			this->btnNoAdd->UseVisualStyleBackColor = false;
@@ -246,20 +252,19 @@ namespace Calc {
 			// 
 			// btnProd
 			// 
-			this->btnProd->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(40)), static_cast<System::Int32>(static_cast<System::Byte>(40)), 
-				static_cast<System::Int32>(static_cast<System::Byte>(40)));
+			this->btnProd->BackColor = System::Drawing::Color::Silver;
 			this->btnProd->FlatAppearance->BorderColor = System::Drawing::Color::White;
 			this->btnProd->FlatAppearance->BorderSize = 0;
 			this->btnProd->FlatAppearance->MouseDownBackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(80)), 
 				static_cast<System::Int32>(static_cast<System::Byte>(80)), static_cast<System::Int32>(static_cast<System::Byte>(80)));
 			this->btnProd->FlatAppearance->MouseOverBackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(80)), 
 				static_cast<System::Int32>(static_cast<System::Byte>(80)), static_cast<System::Int32>(static_cast<System::Byte>(80)));
-			this->btnProd->FlatStyle = System::Windows::Forms::FlatStyle::System;
+			this->btnProd->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
 			this->btnProd->Font = (gcnew System::Drawing::Font(L"Segoe UI", 7.5F, System::Drawing::FontStyle::Bold));
-			this->btnProd->ForeColor = System::Drawing::Color::White;
-			this->btnProd->Location = System::Drawing::Point(240, 46);
+			this->btnProd->ForeColor = System::Drawing::Color::Black;
+			this->btnProd->Location = System::Drawing::Point(226, 224);
 			this->btnProd->Name = L"btnProd";
-			this->btnProd->Size = System::Drawing::Size(50, 30);
+			this->btnProd->Size = System::Drawing::Size(100, 100);
 			this->btnProd->TabIndex = 11;
 			this->btnProd->Text = L"x";
 			this->btnProd->UseVisualStyleBackColor = false;
@@ -267,19 +272,18 @@ namespace Calc {
 			// 
 			// btnNoProd
 			// 
-			this->btnNoProd->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(40)), static_cast<System::Int32>(static_cast<System::Byte>(40)), 
-				static_cast<System::Int32>(static_cast<System::Byte>(40)));
+			this->btnNoProd->BackColor = System::Drawing::Color::Silver;
 			this->btnNoProd->FlatAppearance->BorderSize = 0;
 			this->btnNoProd->FlatAppearance->MouseDownBackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(80)), 
 				static_cast<System::Int32>(static_cast<System::Byte>(80)), static_cast<System::Int32>(static_cast<System::Byte>(80)));
 			this->btnNoProd->FlatAppearance->MouseOverBackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(80)), 
 				static_cast<System::Int32>(static_cast<System::Byte>(80)), static_cast<System::Int32>(static_cast<System::Byte>(80)));
-			this->btnNoProd->FlatStyle = System::Windows::Forms::FlatStyle::System;
+			this->btnNoProd->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
 			this->btnNoProd->Font = (gcnew System::Drawing::Font(L"Segoe UI", 9, System::Drawing::FontStyle::Bold));
-			this->btnNoProd->ForeColor = System::Drawing::Color::White;
-			this->btnNoProd->Location = System::Drawing::Point(296, 46);
+			this->btnNoProd->ForeColor = System::Drawing::Color::Black;
+			this->btnNoProd->Location = System::Drawing::Point(226, 330);
 			this->btnNoProd->Name = L"btnNoProd";
-			this->btnNoProd->Size = System::Drawing::Size(50, 30);
+			this->btnNoProd->Size = System::Drawing::Size(100, 100);
 			this->btnNoProd->TabIndex = 12;
 			this->btnNoProd->Text = L":";
 			this->btnNoProd->UseVisualStyleBackColor = false;
@@ -292,7 +296,7 @@ namespace Calc {
 				static_cast<System::Byte>(204)));
 			this->lblWarning->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(255)), static_cast<System::Int32>(static_cast<System::Byte>(64)), 
 				static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->lblWarning->Location = System::Drawing::Point(10, 175);
+			this->lblWarning->Location = System::Drawing::Point(12, 265);
 			this->lblWarning->Name = L"lblWarning";
 			this->lblWarning->Size = System::Drawing::Size(0, 19);
 			this->lblWarning->TabIndex = 13;
@@ -301,9 +305,9 @@ namespace Calc {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->BackColor = System::Drawing::SystemColors::Menu;
+			this->BackColor = System::Drawing::SystemColors::WindowFrame;
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->ClientSize = System::Drawing::Size(354, 225);
+			this->ClientSize = System::Drawing::Size(344, 465);
 			this->Controls->Add(this->btnNoProd);
 			this->Controls->Add(this->btnProd);
 			this->Controls->Add(this->btnNoAdd);
@@ -457,6 +461,12 @@ private: System::Void txt2_TextChanged(System::Object^  sender, System::EventArg
 				   txt2->Text=txt2->Text->Replace(L".",L",");
 				   txt2->SelectionStart = i1;
 			 }
+		 }
+private: System::Void lblResult_Click(System::Object^  sender, System::EventArgs^  e) {
+		 }
+private: System::Void lbl2_Click(System::Object^  sender, System::EventArgs^  e) {
+		 }
+private: System::Void lbl1_Click(System::Object^  sender, System::EventArgs^  e) {
 		 }
 };
 }
